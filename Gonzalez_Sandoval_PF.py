@@ -197,14 +197,6 @@ if section == "1. Contexto":
                 <li><strong>Año del modelo</strong> (model year): Año de fabricación</li>
                 <li><strong>Origen</strong> (origin): País de fabricación (USA, Europa, Japón)</li>
             </ul>
-            <p style='color: white; font-size: 16px; line-height: 1.8; margin-top: 15px;'>
-                Se utiliza el <strong>dataset Auto MPG</strong> que contiene información de 392 vehículos únicos. 
-                Para cumplir con el requisito de tamaño mínimo del proyecto, el dataset se ha extendido mediante 
-                técnicas de augmentación controlada hasta alcanzar <strong>750+ registros</strong>, lo que permite 
-                entrenar modelos de regresión más robustos y obtener predicciones más confiables. Este enfoque 
-                nos permite evaluar y comparar diferentes algoritmos de Machine Learning para determinar cuál 
-                ofrece el mejor rendimiento predictivo.
-            </p>
         </div>
     """, unsafe_allow_html=True)
     
