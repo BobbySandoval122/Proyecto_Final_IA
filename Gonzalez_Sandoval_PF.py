@@ -219,7 +219,7 @@ if section == "1. Contexto":
             en el entrenamiento de los modelos predictivos.
         </p>
     """, unsafe_allow_html=True)
-    st.dataframe(df.head(20), use_container_width=True, height=450)
+    st.dataframe(df.head(750), use_container_width=True, height=450)
 
 
 # -------- EDA --------
