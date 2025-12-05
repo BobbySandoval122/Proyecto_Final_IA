@@ -183,12 +183,11 @@ if section == "1. Contexto":
     
     st.markdown("""
         <div style='background-color: #2C3E50; padding: 25px; border-radius: 10px; color: white;'>
-            <h4 style='color: white; margin-top: 0;'>Objetivo del Proyecto</h4>
-            <p style='color: white; font-size: 16px; line-height: 1.8; margin-bottom: 15px;'>
+            <p style='color: white !important; font-size: 16px; line-height: 1.8; margin-bottom: 15px;'>
                 El objetivo de este proyecto es predecir el <strong>consumo de combustible (MPG - Millas por Galón)</strong> 
                 de un vehículo a partir de sus características mecánicas y técnicas. Las variables predictoras incluyen:
             </p>
-            <ul style='color: white; font-size: 15px; line-height: 1.6;'>
+            <ul style='color: white !important; font-size: 15px; line-height: 1.6;'>
                 <li><strong>Peso del vehículo</strong> (weight): Peso total en libras</li>
                 <li><strong>Cilindrada del motor</strong> (displacement): Volumen de los cilindros</li>
                 <li><strong>Caballos de fuerza</strong> (horsepower): Potencia del motor</li>
@@ -244,7 +243,7 @@ elif section == "2. Análisis Exploratorio":
         st.markdown("""
             <p style='color: #000000; font-size: 14px; line-height: 1.6; margin-bottom: 15px;'>
                 Este histograma muestra cómo se distribuyen los valores de MPG en el dataset. 
-                Permite identificar si hay vehículos muy gastalones (MPG bajo) o muy eficientes (MPG alto), 
+                Permite identificar si hay vehículos que gastan mucho (MPG bajo) o muy eficientes (MPG alto), 
                 y dónde se concentra la mayoría de los vehículos.
             </p>
         """, unsafe_allow_html=True)
